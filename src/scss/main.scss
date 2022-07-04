@@ -146,13 +146,13 @@ body{
 
         & a{
             background-color: silver;
-            width: 100%;
+            width: 150%;
             text-align: center;
             line-height: 5rem;
             text-decoration: none;
             color: black;
             height: 5rem;
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             text-transform: uppercase;
             transition: 0.9s;
             margin-bottom: 0.1rem;
@@ -174,7 +174,7 @@ body{
     }
 
     &__social{
-        width: 100%;
+        width: 150%;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -254,6 +254,125 @@ body{
 
         &#foto1{
             background-image: url('../../img/animais.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            filter: grayscale(100%);
+            transition: 0.5s;
+
+            &:hover{
+                filter: grayscale(10%);
+                background-size: 120%;
+                transition: 0.5s;
+            }
+        }
+
+        &#foto2{
+            background-image: url('../../img/arquitetura.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            filter: grayscale(100%);
+            transition: 0.5s;
+
+            &:hover{
+                filter: grayscale(10%);
+                background-size: 120%;
+                transition: 0.5s;
+            }
+        }
+
+        &#foto3{
+            background-image: url('../../img/cidade.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            filter: grayscale(100%);
+            transition: 0.5s;
+
+            &:hover{
+                filter: grayscale(10%);
+                background-size: 120%;
+                transition: 0.5s;
+            }
+        }
+
+        &#foto4{
+            background-image: url('../../img/decoracao.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            filter: grayscale(100%);
+            transition: 0.5s;
+
+            &:hover{
+                filter: grayscale(10%);
+                background-size: 120%;
+                transition: 0.5s;
+            }
+        }
+
+        &#foto5{
+            background-image: url('../../img/esportes.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            filter: grayscale(100%);
+            transition: 0.5s;
+
+            &:hover{
+                filter: grayscale(10%);
+                background-size: 120%;
+                transition: 0.5s;
+            }
+        }
+
+        &#foto6{
+            background-image: url('../../img/natureza.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            filter: grayscale(100%);
+            transition: 0.5s;
+
+            &:hover{
+                filter: grayscale(10%);
+                background-size: 120%;
+                transition: 0.5s;
+            }
+        }
+
+        &#foto7{
+            background-image: url('../../img/paisagem.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            filter: grayscale(100%);
+            transition: 0.5s;
+
+            &:hover{
+                filter: grayscale(10%);
+                background-size: 120%;
+                transition: 0.5s;
+            }
+        }
+
+        &#foto8{
+            background-image: url('../../img/pessoas.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            filter: grayscale(100%);
+            transition: 0.5s;
+
+            &:hover{
+                filter: grayscale(10%);
+                background-size: 120%;
+                transition: 0.5s;
+            }
+        }
+        &#foto9{
+            background-image: url('../../img/refeicoes.jpg');
             background-repeat: no-repeat;
             background-position: center;
             background-size: 100%;
